@@ -9,7 +9,10 @@ const buttonThemes = {
     google: css`
         color: #5a5e63;
         background-color: #ffffff;
-        box-shadow: 1px 1px 4px gray;
+
+        &:hover {
+            background-color: #C6CFFF;
+        }
     `,
 };
 
@@ -19,7 +22,12 @@ const StyledButton = styled.button`
     padding: 0.75em 1.5em;
     font-size: 0.9rem;
     font-weight: 600;
+    transition: background-color 300ms ease;
     ${(props) => (props.theme ? buttonThemes[props.theme] : "")};
+
+    &:active {
+        transform: translateY(3px);
+    }
 
     .icon {
         margin-right: 0.75em;
