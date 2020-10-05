@@ -8,10 +8,12 @@ const LoginWrapper = styled.div`
     left: 50%;
     transform: translate(-50%, -50%);
 
-    padding: 2em;
-    border-radius: 4px;
+    padding: 1.5em;
+    border-radius: 8px;
+    height: 25em;
 
     background-color: #1F2236;
+    box-shadow: 4px 4px 20px rgba(38, 40, 51, 0.5);
 `;
 
 function LoginForm() {

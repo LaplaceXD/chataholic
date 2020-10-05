@@ -11,6 +11,7 @@ const buttonThemes = {
         background-color: #ffffff;
 
         &:hover {
+            cursor: pointer;
             background-color: #C6CFFF;
         }
     `,
