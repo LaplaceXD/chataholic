@@ -14,12 +14,17 @@ const resets = css`
 
 const typography = css`
     body {
-        font-family: "Ubuntu", sans-serif;
+        font-family: "Montserrat", sans-serif;
+        color: white;
     }
 `;
 
 export const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
     ${resets};
     ${typography};
 `;
+
+export const colors = {
+    primaryBg: "hsl(231, 15%, 17%)",
+}
