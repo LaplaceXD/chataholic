@@ -3,11 +3,7 @@ import styled from 'styled-components';
 import Button from "./common/Button";
 
 const LoginWrapper = styled.div`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    grid-column: 1 / 5;
     padding: 1.5em;
     border-radius: 8px;
     height: 25em;
